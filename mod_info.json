@@ -1,0 +1,13 @@
+{
+    "id": "su_CarrierHullmod",
+    "name": "Modern Carriers",
+    "author": "Sutopia",
+    "utility": "true",
+    "version": "0.95a",
+    "description": "New carrier hull mods. Have also built them into some vanilla hulls, enjoy!",
+    "gameVersion": "0.95a-RC15",
+	"jars": ["jar/SutCarM.jar"],
+	"replace":[
+		
+	],
+}
