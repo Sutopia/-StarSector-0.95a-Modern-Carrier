@@ -1,8 +1,9 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
-Fighter Command Overclock,carriersafetyoverrides,0,,,"special, Fighters, offensive, merc, no_build_in, non_phase","Special, Fighters",2500,TRUE,,,10,20,40,60,com.fs.starfarer.api.impl.hullmods.CarrierSafetyOverride,"Overclocking the fighter command unit, replace fighters with extraordinary speed and allows the zero-flux engine boost to take effect regardless of flux level.
+Fighter Command Overclock,carriersafetyoverrides,0,,,"special, Fighters, offensive, merc, no_build_in, non_phase","Special, Fighters",2500,TRUE,,,10,20,40,60,com.fs.starfarer.api.impl.hullmods.CarrierSafetyOverride,"Overclocking the fighter command unit, replace fighters instantly and allows the zero-flux engine boost to take effect regardless of flux level.
 
 Reduces the peak performance time by a factor of %s and drastically reduces fighter operating range by %s.","Drastic improvement in performance, much lower peak time.",graphics/hullmods/faulty_automated_systems.png
-Advanced Carrier Core,advancedcarrier,,,,"carrier_core",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.AdvancedCarrier,"Fighter wing attributes are enhanced by %s. EMP damage to fighters is reduced by %s.
+Advanced Carrier Core,advancedcarrier,,,,"carrier_core",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.AdvancedCarrier,"Fighter wing attributes are enhanced by %s.
+Fighter EMP damage taken reduced by %s. 
 
 Precludes the installation of any Carrier Core.","Greatly improved fighters.",graphics/hullmods/advanced_carrier.png
 Swarm Carrier Core,swarmcarrier,0,,,"special, Fighters, merc, non_phase, carrier_core","Special, Fighters",2500,TRUE,,,0,0,20,40,com.fs.starfarer.api.impl.hullmods.SwarmCarrierCore,"Increases the available hanger by %s/%s for cruisers/capital ships.
@@ -17,8 +18,11 @@ Fighter non-missile weapon range increased by %s.
 Fighter missile rate of fire increased by %s.
 
 Can not work in conjunction with another Carrier Core.","Fighter bounded to carrier with greatly enhanced performance",graphics/hullmods/mechanical_engineering_sm.png
-Skirmish Carrier Core,rushbcarrier,0,,,"special, Fighters, merc, non_phase, carrier_core","Special, Fighters",2500,TRUE,,,10,20,30,40,com.fs.starfarer.api.impl.hullmods.SkirmishCarrierCore,"Increases fighter top speed and acceleration by %s.
+Skirmish Carrier Core,rushbcarrier,0,,,"special, Fighters, merc, non_phase, carrier_core","Special, Fighters",2500,TRUE,,,10,20,30,40,com.fs.starfarer.api.impl.hullmods.SkirmishCarrierCore,"Increases fighter top speed and acceleration by %s and allows zero-flux bonus to take effect at %s flux.
 
-Reduces fighter turning rate and deceleration by %s.
+Reduces fighter auto fire accuracy by %s.
+Reduces fighter non-missile weapon range by %s.
+Reduces fighter missile tracking by %s.
+Increases fighter recoil by %s.
 
-Can not work in conjunction with another Carrier Core.","I can't turn around!!!",graphics/hullmods/combat_sm.png
+Can not work in conjunction with another Carrier Core.","Faster fighter but worse weapons",graphics/hullmods/combat_sm.png
