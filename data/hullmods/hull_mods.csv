@@ -7,19 +7,19 @@ Fighter EMP damage taken reduced by %s.
 Carrier in-combat sight range increased by %s.
 
 Precludes the installation of any Carrier Core.","Greatly improved fighters.",graphics/hullmods/advanced_carrier.png
-Swarm Carrier Core,swarmcarrier,0,,"Core Carrier","special, Fighters, merc, non_phase, carrier_core","Special, Fighters",2500,TRUE,,,0,0,20,40,com.fs.starfarer.api.impl.hullmods.SwarmCarrierCore,"Increases the available hanger by %s/%s for cruisers/capital ships.
+Swarm Carrier Core,swarmcarrier,0,,"Core Carrier","special, Fighters, merc, non_phase, carrier_core","Fighters",2500,TRUE,,,0,0,20,40,com.fs.starfarer.api.impl.hullmods.SwarmCarrierCore,"Increases the available hanger by %s/%s for cruisers/capital ships.
 
 Due to shared use of fighter manufactory, the manufacturing capacity is evenly distributed among all fighter decks, increasing time to replace fighters significantly.
 
 Can not be installed on a frigate or a destroyer, and can not work in conjunction with another Carrier Core.","More fighter decks, reduced fighter replacement speed",graphics/hullmods/expanded_hanger.png
-Bastion Carrier Core,bastioncarrier,0,,"Core Carrier","special, Fighters, merc, non_phase, carrier_core","Special, Fighters",2500,TRUE,,,10,20,30,40,com.fs.starfarer.api.impl.hullmods.BastionCarrierCore,"Reduce fighter operation range to %s.
+Bastion Carrier Core,bastioncarrier,0,,"Core Carrier","special, Fighters, merc, non_phase, carrier_core","Fighters",2500,TRUE,,,10,20,30,40,com.fs.starfarer.api.impl.hullmods.BastionCarrierCore,"Reduce fighter operation range to %s.
 
 Fighter damage taken reduced by %s. 
 Fighter non-missile weapon range increased by %s. 
 Fighter missile max speed increased by %s.
 
 Can not work in conjunction with another Carrier Core.","Fighter bounded to carrier with greatly enhanced performance",graphics/hullmods/mechanical_engineering_sm.png
-Skirmish Carrier Core,rushbcarrier,0,,"Core Carrier","special, Fighters, merc, non_phase, carrier_core","Special, Fighters",2500,TRUE,,,10,20,30,40,com.fs.starfarer.api.impl.hullmods.SkirmishCarrierCore,"Increases fighter top speed and acceleration by %s and allows zero-flux bonus to take effect at %s flux.
+Skirmish Carrier Core,rushbcarrier,0,,"Core Carrier","special, Fighters, merc, non_phase, carrier_core","Fighters",2500,TRUE,,,10,20,30,40,com.fs.starfarer.api.impl.hullmods.SkirmishCarrierCore,"Increases fighter top speed and acceleration by %s and allows zero-flux bonus to take effect at %s flux.
 
 Reduces all fighter weapon range by %s.
 Reduces fighter missile tracking by %s.
@@ -34,20 +34,25 @@ Increases carrier zero-flux speed bonus by the lost max speed.
 
 Can not work in conjunction with another Carrier Core.","Long range carrier but low mobility when engage",graphics/hullmods/advanced_tactics_sm.png
 Manufactory Load Balance,carrierloadbalance,0,,"Modern","Fighters, merc, non_phase","Fighters",2500,TRUE,,,3,6,9,12,com.fs.starfarer.api.impl.hullmods.FighterBayLoadBalance,"Redistributes manufactory production power, an idle manufactory transfers it's replacement rate to a bay replacing lost fighters.","More effective fighter replacement at times.",graphics/hullmods/fleet_logistics_sm.png
-Gunship Heavy Ordnance,fatfighters,0,,"Modern","Fighters, offensive, merc, non_phase","Fighters, Weapons",2500,TRUE,,,3,6,9,15,com.fs.starfarer.api.impl.hullmods.FighterHeavyOrdnanceM,"Load fighter with heavy ordnance in exchange of agility.
+Gunship Heavy Ordnance,fatfighters,0,,"Modern","Fighters, offensive, merc, non_phase","Fighters",2500,TRUE,,,3,6,9,15,com.fs.starfarer.api.impl.hullmods.FighterHeavyOrdnanceM,"Load fighter with heavy ordnance in exchange of agility.
 
 Fighter rate of fire increased by %s.
 Fighter flux status increased by %s.
 Fighter max speed and maneuverability reduced by %s.
 
 The effect does not apply to bombers","Fighter project more firepower but much slower speed",graphics/hullmods/ordnance_expert_sm.png
-Bomber External Hardpoint,fightermorebomb,0,,"Modern","Fighters, offensive, merc, non_phase","Fighters, Weapons",2500,TRUE,,,5,10,15,25,com.fs.starfarer.api.impl.hullmods.FighterExternalBombBay,"Mount additional ammunitions on bomber's external hardpoints
+Electronic Superiority,ecmfighters,0,,"Modern","Fighters, merc, non_phase","Fighters",2500,,TRUE,TRUE,3,6,9,15,com.fs.starfarer.api.impl.hullmods.FighterECMPMinor,"Fighter grants %s ECM rating.
+
+The effect does not apply to bombers","Fighter has ECM",graphics/hullmods/su_modern_fighter_ecm.png
+Bomber External Hardpoint,fightermorebomb,0,,"Modern","Fighters, offensive, merc, non_phase","Fighters",2500,TRUE,,,5,10,15,25,com.fs.starfarer.api.impl.hullmods.FighterExternalBombBay,"Mount additional ammunitions on bomber's external hardpoints
 
 Bomber maximum ammo increased by %s.
 Bomber max speed and maneuverability reduced by %s.
 
-Bomber resumes original speed and maneuverability after dropping all bombs.","Double ammo for bomber but extremely slow before emptying ammo",graphics/hullmods/external_bomb.png
-Emergency Launch Sequence,emergencyfighters,0,,"Modern","Fighters, defensive, merc, non_phase","Fighters",2500,TRUE,,,3,6,9,15,com.fs.starfarer.api.impl.hullmods.FighterEmergencyLaunch,"If a fighter wing is completely eliminated, immediately launch a replace fighter at a cost of replacement rate.
+Bomber resumes original speed and maneuverability after dropping all bombs.
+
+A single-fire torpedo will have no less than %s seconds refiring delay.","Double ammo for bomber but extremely slow before emptying ammo",graphics/hullmods/external_bomb.png
+Emergency Launch Sequence,emergencyfighters,0,,"Modern","Fighters, merc, non_phase","Fighters",2500,TRUE,,,3,6,9,15,com.fs.starfarer.api.impl.hullmods.FighterEmergencyLaunch,"If a fighter wing is completely eliminated, immediately launch a replace fighter at a cost of replacement rate.
 
 The cost of replacement rate is a third of the fighter's base replacement time in seconds.
 
