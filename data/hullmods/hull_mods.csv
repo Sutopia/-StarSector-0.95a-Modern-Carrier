@@ -33,7 +33,7 @@ Reduces carrier max speed by %s.
 Increases carrier zero-flux speed bonus by the lost max speed.
 
 Can not work in conjunction with another Carrier Core.","Long range carrier but low mobility when engage",graphics/hullmods/advanced_tactics_sm.png
-Manufactory Load Balance,carrierloadbalance,0,,"Modern","Fighters, merc, non_phase","Fighters",2500,TRUE,,,5,10,15,20,com.fs.starfarer.api.impl.hullmods.FighterBayLoadBalance,"Redistributes manufactory production power, an idle manufactory transfers it's replacement rate to a bay replacing lost fighters.","More effective fighter replacement at times.",graphics/hullmods/fleet_logistics_sm.png
+Manufactory Load Balance,carrierloadbalance,0,,"Modern","Fighters, merc, non_phase","Fighters",2500,TRUE,,,3,6,9,15,com.fs.starfarer.api.impl.hullmods.FighterBayLoadBalance,"Redistributes manufactory production power, an idle manufactory transfers it's replacement rate to a bay replacing lost fighters.","More effective fighter replacement at times.",graphics/hullmods/fleet_logistics_sm.png
 Gunship Heavy Ordnance,fatfighters,0,,"Modern","Fighters, offensive, merc, non_phase","Fighters",2500,TRUE,,,3,6,9,15,com.fs.starfarer.api.impl.hullmods.FighterHeavyOrdnanceM,"Load fighter with heavy ordnance in exchange of agility.
 
 Fighter rate of fire increased by %s.
@@ -44,7 +44,7 @@ The effect does not apply to bombers","Fighter project more firepower but much s
 Electronic Superiority,ecmfighters,0,,"Modern","Fighters, merc, non_phase, special","Fighters, Support",2500,TRUE,,,3,6,9,15,com.fs.starfarer.api.impl.hullmods.FighterECMPMinor,"Each active fighter or interceptor grants %s ECM rating.
 
 The effect does not apply to bombers","Fighter has ECM",graphics/hullmods/su_modern_fighter_ecm.png
-Bomber External Hardpoint,fightermorebomb,0,,"Modern","Fighters, offensive, merc, non_phase","Fighters",2500,TRUE,,,5,10,15,25,com.fs.starfarer.api.impl.hullmods.FighterExternalBombBay,"Mount additional ammunitions on bomber's external hardpoints
+Bomber External Hardpoint,fightermorebomb,0,,"Modern","Fighters, offensive, merc, non_phase","Fighters",2500,TRUE,,,10,15,20,30,com.fs.starfarer.api.impl.hullmods.FighterExternalBombBay,"Mount additional ammunitions on bomber's external hardpoints
 
 Bomber max ammo increased by %s.
 Bomber max speed and maneuverability reduced by %s.
@@ -58,7 +58,7 @@ Emergency Launch Sequence,emergencyfighters,0,,"Modern","Fighters, merc, non_pha
 The cost of replacement rate is a third of the fighter's base replacement time in seconds.
 
 If such replacement would drop replacement rate below minimum replacement rate, the replacement fighter will not be launched.","Force launch fighter at cost of replacement rate when wing eliminated",graphics/hullmods/strike_commander_sm2.png
-Fighter Armor Removal,fighternoarmor,0,,"Modern","Fighters, special, merc, non_phase","Fighters",2500,TRUE,,,2,4,8,10,com.fs.starfarer.api.impl.hullmods.StripFighterArmor,"Removes all fighter armor for better agility and flux status.
+Fighter Armor Removal,fighternoarmor,0,,"Modern","Fighters, special, merc, non_phase","Fighters",2500,TRUE,,,2,4,6,8,com.fs.starfarer.api.impl.hullmods.StripFighterArmor,"Removes all fighter armor for better agility and flux status.
 
 For every %s base armor:
 Increase max speed by %s.
