@@ -34,7 +34,7 @@ Reduces carrier max speed by %s.
 Increases carrier zero-flux speed bonus by the lost max speed.
 
 Can not work in conjunction with another Carrier Core.","Long range carrier but low mobility when engage",graphics/hullmods/advanced_tactics_sm.png
-Manufactory Load Balance,carrierloadbalance,0,,"Modern","Fighters, merc, non_phase","Fighters",2500,TRUE,,,3,6,9,15,com.fs.starfarer.api.impl.hullmods.FighterBayLoadBalance,"Redistributes manufactory production power, an idle manufactory transfers it's replacement rate to a bay replacing lost fighters.","More effective fighter replacement at times.",graphics/hullmods/fleet_logistics_sm.png
+Manufactory Load Balance,carrierloadbalance,0,,"Modern","Fighters, merc, non_phase","Fighters",2500,TRUE,,,3,6,9,12,com.fs.starfarer.api.impl.hullmods.FighterBayLoadBalance,"Redistributes manufactory production power, an idle manufactory transfers its replacement rate to a bay replacing lost fighters.","More effective fighter replacement at times.",graphics/hullmods/fleet_logistics_sm.png
 Gunship Heavy Ordnance,fatfighters,0,,"Modern","Fighters, offensive, merc, non_phase","Fighters",2500,TRUE,,,3,6,9,15,com.fs.starfarer.api.impl.hullmods.FighterHeavyOrdnanceM,"Load fighter with heavy ordnance in exchange of agility.
 
 Fighter rate of fire increased by %s.
