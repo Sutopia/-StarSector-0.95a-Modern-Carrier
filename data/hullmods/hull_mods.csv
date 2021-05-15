@@ -1,5 +1,6 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
-Fighter Command Overclock,carriersafetyoverrides,0,,Modern,"special, Fighters, offensive, merc, no_build_in, non_phase","Special, Fighters",2500,TRUE,,,10,20,40,60,com.fs.starfarer.api.impl.hullmods.CarrierSafetyOverride,"Overclocking the fighter command unit, replace fighters instantly and allows the zero-flux engine boost to take effect regardless of flux level.
+Fighter Command Overclock,carriersafetyoverrides,0,,Modern,"special, Fighters, offensive, merc, no_build_in, non_phase","Special, Fighters",2500,TRUE,,,10,20,40,60,com.fs.starfarer.api.impl.hullmods.CarrierSafetyOverride,"Overclocking the fighter command unit, replacement rate no longer drop.
+Convert replacement rates into reserve deployments, and allows the zero-flux engine boost to take effect regardless of flux level.
 
 Reduces the peak performance time by a factor of %s and drastically reduces fighter operating range by %s.","Drastic improvement in performance, much lower peak time.",graphics/hullmods/faulty_automated_systems.png
 Advanced Carrier Core,advancedcarrier,,,"Core Carrier","req_spaceport, carrier_core","Requires Dock",,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.AdvancedCarrier,"Fighter wing attributes are enhanced by %s.
