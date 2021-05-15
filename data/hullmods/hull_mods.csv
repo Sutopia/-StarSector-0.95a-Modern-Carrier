@@ -12,7 +12,7 @@ Swarm Carrier Core,swarmcarrier,0,,"Core Carrier","special, Fighters, merc, non_
 Due to shared use of fighter manufactory, the manufacturing capacity is evenly distributed among all fighter decks, increasing time to replace fighters significantly.
 
 Can not be installed on a frigate or a destroyer, and can not work in conjunction with another Carrier Core.","More fighter decks, reduced fighter replacement speed",graphics/hullmods/expanded_hanger.png
-Bastion Carrier Core,bastioncarrier,0,,"Core Carrier","special, Fighters, merc, non_phase, carrier_core","Fighters",2500,TRUE,,,10,20,30,40,com.fs.starfarer.api.impl.hullmods.BastionCarrierCore,"Reduce fighter operation range to %s.
+Bastion Carrier Core,bastioncarrier,0,,"Core Carrier","special, Fighters, merc, non_phase, carrier_core","Fighters",2500,TRUE,,,10,20,30,40,com.fs.starfarer.api.impl.hullmods.BastionCarrierCore,"Reduce fighter operating range to %s.
 
 Fighter damage taken reduced by %s. 
 Fighter non-missile weapon range increased by %s. 
@@ -33,7 +33,7 @@ Reduces carrier max speed by %s.
 Increases carrier zero-flux speed bonus by the lost max speed.
 
 Can not work in conjunction with another Carrier Core.","Long range carrier but low mobility when engage",graphics/hullmods/advanced_tactics_sm.png
-Manufactory Load Balance,carrierloadbalance,0,,"Modern","Fighters, merc, non_phase","Fighters",2500,TRUE,,,3,6,9,12,com.fs.starfarer.api.impl.hullmods.FighterBayLoadBalance,"Redistributes manufactory production power, an idle manufactory transfers it's replacement rate to a bay replacing lost fighters.","More effective fighter replacement at times.",graphics/hullmods/fleet_logistics_sm.png
+Manufactory Load Balance,carrierloadbalance,0,,"Modern","Fighters, merc, non_phase","Fighters",2500,TRUE,,,5,10,15,20,com.fs.starfarer.api.impl.hullmods.FighterBayLoadBalance,"Redistributes manufactory production power, an idle manufactory transfers it's replacement rate to a bay replacing lost fighters.","More effective fighter replacement at times.",graphics/hullmods/fleet_logistics_sm.png
 Gunship Heavy Ordnance,fatfighters,0,,"Modern","Fighters, offensive, merc, non_phase","Fighters",2500,TRUE,,,3,6,9,15,com.fs.starfarer.api.impl.hullmods.FighterHeavyOrdnanceM,"Load fighter with heavy ordnance in exchange of agility.
 
 Fighter rate of fire increased by %s.
@@ -41,17 +41,18 @@ Fighter flux status increased by %s.
 Fighter max speed and maneuverability reduced by %s.
 
 The effect does not apply to bombers","Fighter project more firepower but much slower speed",graphics/hullmods/ordnance_expert_sm.png
-Electronic Superiority,ecmfighters,0,,"Modern","Fighters, merc, non_phase","Fighters",2500,,TRUE,TRUE,3,6,9,15,com.fs.starfarer.api.impl.hullmods.FighterECMPMinor,"Fighter grants %s ECM rating.
+Electronic Superiority,ecmfighters,0,,"Modern","Fighters, merc, non_phase, special","Fighters, Support",2500,TRUE,,,3,6,9,15,com.fs.starfarer.api.impl.hullmods.FighterECMPMinor,"Each active fighter or interceptor grants %s ECM rating.
 
 The effect does not apply to bombers","Fighter has ECM",graphics/hullmods/su_modern_fighter_ecm.png
 Bomber External Hardpoint,fightermorebomb,0,,"Modern","Fighters, offensive, merc, non_phase","Fighters",2500,TRUE,,,5,10,15,25,com.fs.starfarer.api.impl.hullmods.FighterExternalBombBay,"Mount additional ammunitions on bomber's external hardpoints
 
-Bomber maximum ammo increased by %s.
+Bomber max ammo increased by %s.
 Bomber max speed and maneuverability reduced by %s.
+A bombing run will last no less than %s seconds.
 
 Bomber resumes original speed and maneuverability after dropping all bombs.
 
-A single-fire torpedo will have no less than %s seconds refiring delay.","Double ammo for bomber but extremely slow before emptying ammo",graphics/hullmods/external_bomb.png
+If a bomber uses regenerating missile ammo or not having missile at all, the effects do not apply.","Double ammo for bomber but extremely slow before emptying ammo",graphics/hullmods/external_bomb.png
 Emergency Launch Sequence,emergencyfighters,0,,"Modern","Fighters, merc, non_phase","Fighters",2500,TRUE,,,3,6,9,15,com.fs.starfarer.api.impl.hullmods.FighterEmergencyLaunch,"If a fighter wing is completely eliminated, immediately launch a replace fighter at a cost of replacement rate.
 
 The cost of replacement rate is a third of the fighter's base replacement time in seconds.
