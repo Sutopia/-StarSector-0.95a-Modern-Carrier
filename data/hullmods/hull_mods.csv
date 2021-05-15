@@ -2,30 +2,30 @@ name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hid
 Fighter Command Overclock,carriersafetyoverrides,0,,Modern,"special, Fighters, offensive, merc, no_build_in, non_phase","Special, Fighters",2500,TRUE,,,10,20,40,60,com.fs.starfarer.api.impl.hullmods.CarrierSafetyOverride,"Overclocking the fighter command unit, replace fighters instantly and allows the zero-flux engine boost to take effect regardless of flux level.
 
 Reduces the peak performance time by a factor of %s and drastically reduces fighter operating range by %s.","Drastic improvement in performance, much lower peak time.",graphics/hullmods/faulty_automated_systems.png
-Advanced Carrier Core,advancedcarrier,,,"Core Carrier","carrier_core",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.AdvancedCarrier,"Fighter wing attributes are enhanced by %s.
+Advanced Carrier Core,advancedcarrier,,,"Core Carrier","req_spaceport, carrier_core","Requires Dock",,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.AdvancedCarrier,"Fighter wing attributes are enhanced by %s.
 Fighter EMP damage taken reduced by %s.
 Carrier in-combat sight range increased by %s.
 
 Precludes the installation of any Carrier Core.","Greatly improved fighters.",graphics/hullmods/advanced_carrier.png
-Swarm Carrier Core,swarmcarrier,0,,"Core Carrier","special, Fighters, merc, non_phase, carrier_core","Fighters",2500,TRUE,,,0,0,20,40,com.fs.starfarer.api.impl.hullmods.SwarmCarrierCore,"Increases the available hanger by %s/%s for cruisers/capital ships.
+Swarm Carrier Core,swarmcarrier,0,,"Core Carrier","req_spaceport, special, Fighters, merc, non_phase, carrier_core","Fighters, Requires Dock",2500,TRUE,,,0,0,20,40,com.fs.starfarer.api.impl.hullmods.SwarmCarrierCore,"Increases the available hanger by %s/%s for cruisers/capital ships.
 
 Due to shared use of fighter manufactory, the manufacturing capacity is evenly distributed among all fighter decks, increasing time to replace fighters significantly.
 
 Can not be installed on a frigate or a destroyer, and can not work in conjunction with another Carrier Core.","More fighter decks, reduced fighter replacement speed",graphics/hullmods/expanded_hanger.png
-Bastion Carrier Core,bastioncarrier,0,,"Core Carrier","special, Fighters, merc, non_phase, carrier_core","Fighters",2500,TRUE,,,10,20,30,40,com.fs.starfarer.api.impl.hullmods.BastionCarrierCore,"Reduce fighter operating range to %s.
+Bastion Carrier Core,bastioncarrier,0,,"Core Carrier","req_spaceport, special, Fighters, merc, non_phase, carrier_core","Fighters, Requires Dock",2500,TRUE,,,10,20,30,40,com.fs.starfarer.api.impl.hullmods.BastionCarrierCore,"Reduce fighter operating range to %s.
 
 Fighter damage taken reduced by %s. 
 Fighter non-missile weapon range increased by %s. 
 Fighter missile max speed increased by %s.
 
 Can not work in conjunction with another Carrier Core.","Fighter bounded to carrier with greatly enhanced performance",graphics/hullmods/mechanical_engineering_sm.png
-Skirmish Carrier Core,rushbcarrier,0,,"Core Carrier","special, Fighters, merc, non_phase, carrier_core","Fighters",2500,TRUE,,,10,20,30,40,com.fs.starfarer.api.impl.hullmods.SkirmishCarrierCore,"Increases fighter top speed and acceleration by %s and allows zero-flux bonus to take effect at %s flux.
+Skirmish Carrier Core,rushbcarrier,0,,"Core Carrier","req_spaceport, special, Fighters, merc, non_phase, carrier_core","Fighters, Requires Dock",2500,TRUE,,,10,20,30,40,com.fs.starfarer.api.impl.hullmods.SkirmishCarrierCore,"Increases fighter top speed and acceleration by %s and allows zero-flux bonus to take effect at %s flux.
 
 Reduces all fighter weapon range by %s.
 Reduces fighter missile tracking by %s.
 
 Can not work in conjunction with another Carrier Core.","Faster fighter but worse weapons",graphics/hullmods/combat_sm.png
-Command Carrier Core,rtscarrier,0,,"Core Carrier","special, Fighters, non_phase, carrier_core","Support, Fighters",2500,TRUE,,,10,15,20,30,com.fs.starfarer.api.impl.hullmods.CommandCarrierCore,"Increases fighter operation range by %s.
+Command Carrier Core,rtscarrier,0,,"Core Carrier","req_spaceport, special, Fighters, non_phase, carrier_core","Support, Fighters, Requires Dock",2500,TRUE,,,10,15,20,30,com.fs.starfarer.api.impl.hullmods.CommandCarrierCore,"Increases fighter operation range by %s.
 Carrier in-combat sight range increased by %s.
 Increases the command point recovery rate by %s when installed on the flagship.
 
