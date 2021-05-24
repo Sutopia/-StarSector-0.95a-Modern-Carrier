@@ -79,7 +79,7 @@ Increase maneuverability by %s.
 Increase %s flux capacity
 Increase %s flux disippation","Remove fighter armor for better agility and flux status.",graphics/hullmods/construction_sm.png
 Targeting Data Link,fightercopycarriertargeting,0,,"Modern","Fighters, merc, non_phase","Fighters",2500,TRUE,,,5,10,15,25,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.DataTargetingLink,"Establish data link with carrier, get range and ECCM bonus the same as mothership.","Fighter benefits from carrier targeting unit and ECCM package",graphics/hullmods/loadout_design_sm.png
-Flux Quantum Entanglement,fighteroverloadscarrier,0,,"Modern","Fighters, merc, non_phase","Fighters",2500,TRUE,,,5,10,15,25,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.ShareFluxOverload,"Fighter transfers all flux to carrier. 
+Flux Quantum Entanglement,fighteroverloadscarrier,0,,"Modern","Fighters, merc, non_phase","Fighters",2500,TRUE,,,4,8,12,20,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.ShareFluxOverload,"Fighter transfers all flux to carrier. 
 
 Important notes:
 May overload carrier.
