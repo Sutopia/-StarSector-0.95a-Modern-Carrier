@@ -1,0 +1,15 @@
+{
+	"weaponGroups":[
+		{"mode":"ALTERNATING",
+		 "weapons":{
+		 			#"WS 001":"pdburst_fighter",
+		 			"WS 002":"pdburst_fighter",
+		 		   },
+		},
+		#{"mode":"LINKED",
+		# "weapons":{
+		# 			#"WS 002":"fragbomb",
+		# 		   },
+		#},
+	],
+}
