@@ -1,0 +1,11 @@
+{
+	"knownHullMods":{
+		"hullMods":[
+			"singletoncarrier",
+			"rushbcarrier",
+			"fatfighters",
+			"ecmfighters",
+			"emergencyfighters",
+		],
+	},
+},

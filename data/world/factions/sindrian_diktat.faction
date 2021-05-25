@@ -1,0 +1,9 @@
+{
+	"knownHullMods":{
+		"hullMods":[
+			"singletoncarrier",
+			"rushbcarrier",
+			"fatfighters",
+		],
+	},
+},

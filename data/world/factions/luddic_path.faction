@@ -1,0 +1,9 @@
+{
+	"knownHullMods":{
+		"hullMods":[
+			"carriersafetyoverrides",
+			"swarmcarrier",
+			"fighternoarmor",
+		],
+	},
+},

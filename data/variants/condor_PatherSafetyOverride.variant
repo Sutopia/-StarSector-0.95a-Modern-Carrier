@@ -1,0 +1,32 @@
+{
+    "displayName": "Reckless",
+    "fluxCapacitors": 2,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "condor",
+    "hullMods": ["carriersafetyoverrides"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "condor_PatherSafetyOverride",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightmg",
+                #"WS 002": "lightmg"
+            }
+        },
+        {
+            #"autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+			#"WS 003": "pilum"
+			}
+        }
+    ],
+    "wings": [
+        "piranha_wing",
+        "perdition_wing"
+    ]
+}

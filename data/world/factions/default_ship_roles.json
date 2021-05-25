@@ -1,0 +1,5 @@
+{
+	"carrierSmall":{
+		"condor_PatherSafetyOverride":5,
+	},
+},

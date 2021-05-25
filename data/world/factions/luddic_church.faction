@@ -1,0 +1,10 @@
+{
+	"knownHullMods":{
+		"hullMods":[
+			"bastioncarrier",
+			"fatfighters",
+			"emergencyfighters",
+			"fighternoarmor",
+		],
+	},
+},

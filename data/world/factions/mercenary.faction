@@ -1,0 +1,13 @@
+{
+	"knownHullMods":{
+		"hullMods":[
+			"rushbcarrier",
+			"carrierloadbalance",
+			"fatfighters",
+			"ecmfighters",
+			"emergencyfighters",
+			"fightercopycarriertargeting",
+			"carriersafetyoverrides",
+		],
+	},
+},

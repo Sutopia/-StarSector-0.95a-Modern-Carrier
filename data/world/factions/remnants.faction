@@ -1,0 +1,14 @@
+{
+	"knownHullMods":{
+		"hullMods":[
+			"advancedcarrier",
+			"carrierloadbalance",
+			"fatfighters",
+			"ecmfighters",
+			"fightermorebomb",
+			"emergencyfighters",
+			"fighternoarmor",
+			"fightercopycarriertargeting",
+		],
+	},
+},

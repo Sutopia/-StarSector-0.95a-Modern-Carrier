@@ -1,0 +1,9 @@
+{
+	"knownHullMods":{
+		"hullMods":[
+			"swarmcarrier",
+			"carrierloadbalance",
+			"emergencyfighters",
+		],
+	},
+},
