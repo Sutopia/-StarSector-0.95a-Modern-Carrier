@@ -1,0 +1,25 @@
+{
+    "displayName": "Command",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "mora",
+    "hullMods": ["eccm","rtscarrier","carrierloadbalance","fatfighters","fighternoarmor","expanded_deck_crew"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "mora_su_Command",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "pilum",
+                "WS 004": "pilum"
+            }
+        }
+    ],
+    "wings": [
+        "claw_wing",
+        "claw_wing",
+        "claw_wing"
+    ]
+}

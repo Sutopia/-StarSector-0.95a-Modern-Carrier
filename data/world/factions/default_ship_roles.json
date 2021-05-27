@@ -1,5 +1,23 @@
 {
 	"carrierSmall":{
-		"condor_PatherSafetyOverride":5,
+		"condor_mc_PatherSafetyOverride":3,
+		
+		"drover_Sutando":5,
+		
+		"scintilla_mc_Overlord":5,
+		"scintilla_mc_Broken":2,
 	},
+	
+	"carrierMedium":{
+		"mora_su_Command":2,
+		"heron_su_Blitz":5,
+	},
+	
+	"carrierLarge":{
+		"astral_su_Cursed":1,
+	},
+	
+	"combatCapital":{
+		"prometheus2_mc_Blessed":5,
+	}
 },

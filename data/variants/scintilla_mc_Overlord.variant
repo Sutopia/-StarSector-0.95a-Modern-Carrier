@@ -1,0 +1,39 @@
+{
+    "displayName": "Domination",
+    "fluxCapacitors": 3,
+    "fluxVents": 6,
+    "hullId": "scintilla",
+    "hullMods": ["fightermorebomb"],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "scintilla_mc_Overlord",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 006": "pilum"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 007": "sabot",
+                "WS 008": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "pdlaser",
+                "WS 001": "pdlaser",
+                "WS 002": "pdlaser",
+                "WS 003": "pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "flash_wing",
+        "flash_wing"
+    ]
+}

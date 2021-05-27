@@ -1,0 +1,41 @@
+{
+    "displayName": "Armageddon",
+    "fluxCapacitors": 3,
+    "fluxVents": 6,
+    "hullId": "scintilla",
+    "hullMods": ["fightermorebomb","fighteroverloadscarrier"],
+    "permaMods": [],
+    "quality": 0,
+    "variantId": "scintilla_mc_Broken",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+				#"WS 006": "pilum"
+			}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 007": "sabot",
+                "WS 008": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "lrpdlaser",
+                "WS 001": "lrpdlaser",
+                "WS 002": "lrpdlaser",
+                "WS 003": "lrpdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "flash_wing",
+        "flash_wing"
+    ]
+}

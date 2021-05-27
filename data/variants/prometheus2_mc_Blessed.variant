@@ -1,0 +1,52 @@
+{
+    "displayName": "Blessed",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "hullId": "prometheus2",
+    "hullMods": ["militarized_subsystems","carriersafetyoverrides"],
+    "permaMods": [],
+    "variantId": "prometheus2_mc_Blessed",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 019": "hammerrack"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 032": "mark9"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 031": "mark9"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                #"WS 004": "arbalest",
+                #"WS 005": "arbalest"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightmg",
+                "WS 003": "lightmg",
+                "WS 006": "lightmg",
+                "WS 012": "lightmg",
+                "WS 013": "lightmg",
+                "WS 014": "lightmg",
+                "WS 015": "lightmg",
+                "WS 016": "lightmg"
+            }
+        }
+    ],
+    "wings": [
+        "perdition_wing",
+		"perdition_wing"
+    ]
+}

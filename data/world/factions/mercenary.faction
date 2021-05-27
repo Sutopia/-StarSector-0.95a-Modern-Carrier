@@ -1,13 +1,17 @@
 {
 	"knownHullMods":{
 		"hullMods":[
+			"swarmcarrier",
 			"rushbcarrier",
+			"singletoncarrier",
+			"rtscarrier",
 			"carrierloadbalance",
 			"fatfighters",
 			"ecmfighters",
 			"emergencyfighters",
 			"fightercopycarriertargeting",
 			"carriersafetyoverrides",
+			"fighternoarmor",
 		],
 	},
 },
