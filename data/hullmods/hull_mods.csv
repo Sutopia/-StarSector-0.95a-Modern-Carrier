@@ -34,7 +34,7 @@ Reduces all fighter weapon range by %s.
 Reduces fighter missile tracking by %s.
 
 Can not work in conjunction with another Carrier Core.","Faster fighter but worse weapons",graphics/hullmods/combat_sm.png
-Command Carrier Core,rtscarrier,3,,"Core Carrier","req_spaceport, special, Fighters, non_phase, carrier_core, req_military","Support, Fighters, Requires Dock",50000,,,,10,15,20,30,org.sutopia.starsector.mod.moderncarrier.hullmods.core.CommandCarrierCore,"Increases fighter operation range by %s.
+Command Carrier Core,rtscarrier,3,,"Core Carrier","req_spaceport, special, Fighters, merc, non_phase, carrier_core, req_military","Support, Fighters, Requires Dock",50000,,,,10,15,20,30,org.sutopia.starsector.mod.moderncarrier.hullmods.core.CommandCarrierCore,"Increases fighter operation range by %s.
 Carrier in-combat sight range increased by %s.
 Increases the command point recovery rate by %s when installed on the flagship.
 
@@ -42,7 +42,7 @@ Reduces carrier max speed by %s.
 Increases carrier zero-flux speed bonus by the lost max speed.
 
 Can not work in conjunction with another Carrier Core.","Long range carrier but low mobility when engage",graphics/hullmods/combat_endurance_sm2.png
-Support Carrier Core,jack_of_all_trades_carrier,3,,"Core Carrier","req_spaceport, special, Fighters, non_phase, carrier_core, req_military","Support, Fighters, Requires Dock",50000,,,,5,10,20,30,org.sutopia.starsector.mod.moderncarrier.hullmods.core.SupportCarrierCore,"Each surviving fighter gives various bonuses
+Support Carrier Core,jack_of_all_trades_carrier,3,,"Core Carrier","req_spaceport, special, Fighters, merc, non_phase, carrier_core, req_military","Support, Fighters, Requires Dock",50000,,,,5,10,20,30,org.sutopia.starsector.mod.moderncarrier.hullmods.core.SupportCarrierCore,"Each surviving fighter gives various bonuses
 
 Each interceptor gives %s ECM rating
 Each bomber or assault fighter gives %s coordinated maneuver
@@ -75,7 +75,7 @@ If a bomber is using a bomb bay, the penalty is halved and have increased rate o
 Bomber resumes original speed and maneuverability after dropping all bombs.
 
 Please note that some mod bombers may suffer low rate of fire or the affect not applying at all.","Double ammo for bomber but extremely slow before emptying ammo",graphics/hullmods/external_bomb.png
-Advanced Fighter Command,emergencyfighters,2,,"Modern","Fighters, merc, non_phase","Fighters",5000,,,,5,10,15,20,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.FighterEmergencyLaunch,"When a wing suffers fighter loss, increase replacement speed according to wing loss severity, up to %s when wing is fully destroyed.
+Advanced Fighter Command,emergencyfighters,2,,"Modern","Fighters, merc, non_phase","Fighters",20000,,,,5,10,15,20,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.FighterEmergencyLaunch,"When a wing suffers fighter loss, increase replacement speed according to wing loss severity, up to %s when wing is fully destroyed.
 
 When launching fighter with the system, it will cost additional replacement rate. The cost is proportional to fighter replacement time and the replacement speed bonus.
 If such cost would drop replacement rate below minimum allowed replacement rate, safety protocol will terminate the launch and resume to default replacement algorithm.","Force launch fighter at cost of replacement rate when wing eliminated",graphics/hullmods/advanced_launch.png
