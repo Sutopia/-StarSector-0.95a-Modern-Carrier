@@ -12,6 +12,8 @@
 			"fightercopycarriertargeting",
 			"carriersafetyoverrides",
 			"fighternoarmor",
+			"fightermorebomb",
+			"jack_of_all_trades_carrier",
 		],
 	},
 },

@@ -2,10 +2,15 @@
 	"knownHullMods":{
 		"hullMods":[
 			"advancedcarrier",
+			"singletoncarrier",
+			"swarmcarrier",
 			"carrierloadbalance",
 			"ecmfighters",
 			"fighteroverloadscarrier",
 			"fightercopycarriertargeting",
+			"fightermorebomb",
+			"carriersafetyoverrides",
+			"jack_of_all_trades_carrier",
 		],
 	},
 },

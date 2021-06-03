@@ -1,0 +1,29 @@
+{
+    "displayName": "Ace Fighter Support",
+    "fluxCapacitors": 8,
+    "fluxVents": 15,
+    "hullId": "enforcer",
+    "hullMods": ["converted_hangar","singletoncarrier"],
+    "permaMods": [],
+    "variantId": "enforcer_Fighter_Support_su_Ace",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "flak",
+                "WS 003": "flak",
+                "WS 005": "flak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "heavyac",
+                "WS 004": "heavyac"
+            }
+        }
+    ],
+    "wings": ["talon_wing"]
+}

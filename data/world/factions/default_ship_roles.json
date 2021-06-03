@@ -1,11 +1,21 @@
 {
+	"combatFreighterMedium":{
+		"gemini_su_Support":5,
+	},
+	
+	"combatMedium":{
+		"enforcer_Fighter_Support_su_Ace":2,
+		
+		"medusa_su_defender":2,
+	},
+	
 	"carrierSmall":{
-		"condor_mc_PatherSafetyOverride":3,
+		"condor_mc_PatherSafetyOverride":2,
 		
 		"drover_Sutando":5,
 		
 		"scintilla_mc_Overlord":5,
-		"scintilla_mc_Broken":2,
+		"scintilla_mc_Broken":1,
 	},
 	
 	"carrierMedium":{
@@ -14,10 +24,14 @@
 	},
 	
 	"carrierLarge":{
+		"astral_su_Task":4,
 		"astral_su_Cursed":1,
 	},
 	
 	"combatCapital":{
 		"prometheus2_mc_Blessed":5,
+		"paragon_su_Escort":2,
+		
+		"odyssey_su_Elite":5,
 	}
 },

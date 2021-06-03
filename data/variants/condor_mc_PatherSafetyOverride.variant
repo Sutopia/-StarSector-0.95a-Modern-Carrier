@@ -1,6 +1,6 @@
 {
     "displayName": "Reckless",
-    "fluxCapacitors": 2,
+    "fluxCapacitors": 4,
     "fluxVents": 0,
     "hullId": "condor",
     "hullMods": ["carriersafetyoverrides"],
@@ -25,7 +25,7 @@
         }
     ],
     "wings": [
-        "piranha_wing",
+        "broadsword_wing",
         "perdition_wing"
     ]
 }

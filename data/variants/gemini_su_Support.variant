@@ -1,0 +1,26 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 2,
+    "fluxVents": 0,
+    "hullId": "gemini",
+    "hullMods": ["militarized_subsystems","singletoncarrier"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "gemini_su_Support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 003": "pilum"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "flak",
+                "WS 002": "flak"
+            }
+        }
+    ],
+    "wings": ["thunder_wing"]
+}

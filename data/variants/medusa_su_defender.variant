@@ -1,0 +1,29 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 4,
+    "fluxVents": 7,
+    "hullId": "medusa",
+    "hullMods": ["converted_hangar","singletoncarrier"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "medusa_su_defender",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "phasebeam",
+                "WS 007": "phasebeam"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 008": "railgun",
+                "WS 009": "railgun"
+            }
+        },
+    ],
+	"wings": ["wasp_wing"]
+}

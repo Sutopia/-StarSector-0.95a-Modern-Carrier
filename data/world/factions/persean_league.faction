@@ -2,8 +2,11 @@
 	"knownHullMods":{
 		"hullMods":[
 			"swarmcarrier",
+			"singletoncarrier",
 			"carrierloadbalance",
 			"emergencyfighters",
+			"fightermorebomb",
+			"jack_of_all_trades_carrier",
 		],
 	},
 },

@@ -3,7 +3,7 @@
     "name": "Modern Carriers",
     "author": "Sutopia",
     "utility": "false",
-    "version": "1.3.6a",
+    "version": "1.4.2a",
     "description": "New carrier hull mods for more carrier specialization.",
     "gameVersion": "0.95a-RC15",
 	"jars": ["jar/SutCarM.jar"],

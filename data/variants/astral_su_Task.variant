@@ -1,0 +1,36 @@
+{
+    "displayName": "Task",
+    "fluxCapacitors": 12,
+    "fluxVents": 15,
+    "hullId": "astral",
+    "hullMods": ["missleracks","carrierloadbalance","fightermorebomb","fighteroverloadscarrier"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "astral_su_Task",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 011": "squall",
+                #"WS 012": "locust"
+            }
+        },
+		{
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                #"WS 011": "squall",
+                "WS 012": "locust"
+            }
+        },
+    ],
+    "wings": [
+        "longbow_wing",
+        "longbow_wing",
+        "longbow_wing",
+        "dagger_wing",
+        "dagger_wing",
+        "broadsword_wing"
+    ]
+}

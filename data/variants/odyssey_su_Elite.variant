@@ -1,0 +1,43 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 20,
+    "fluxVents": 20,
+    "hullId": "odyssey",
+    "hullMods": [
+        "advancedshieldemitter",
+        "hardenedshieldemitter",
+		"singletoncarrier",
+		"targetingunit",
+		"missleracks"
+    ],
+    "permaMods": [],
+    "variantId": "odyssey_su_Elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "locust"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 004": "harpoonpod",
+                "WS 005": "harpoonpod",
+                "WS 006": "harpoonpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+				"WS 002": "tachyonlance",
+				"WS 003": "tachyonlance"
+				
+			}
+        },
+    ],
+    "wings": [
+        "longbow_wing",
+    ]
+}
