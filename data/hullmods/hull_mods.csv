@@ -9,9 +9,7 @@ Fighter EMP damage taken reduced by %s
 Carrier in-combat sight range increased by %s","Greatly improved fighters.",graphics/hullmods/advanced_carrier.png
 Swarm Carrier Core,swarmcarrier,3,,"Core Carrier","req_spaceport, special, Fighters, merc, non_phase, carrier_core, req_military","Fighters, Requires Dock",50000,,,,0,0,20,40,org.sutopia.starsector.mod.moderncarrier.hullmods.core.SwarmCarrierCore,"Increases the available hanger by %s/%s for cruisers/capital ships.
 
-Due to extra stress on the fighter system, manufactories and fighters suffer degraded performance.
-Replacement time and replacement rate decreasement due to fighter loss is multiplied by %s.
-Fighter combat readiness is reduced by a factor of %s.
+Due to extra stress on the fighter system, the manufactory suffers degraded performance. The fewer decks a ship orignially has, the higher the penalty.
 
 Can not be installed on a frigate or a destroyer, and can not work in conjunction with another Carrier Core.","More fighter decks, reduced fighter replacement speed",graphics/hullmods/expanded_hanger.png
 Bastion Carrier Core,bastioncarrier,3,,"Core Carrier","req_spaceport, special, Fighters, merc, non_phase, carrier_core, req_military","Fighters, Requires Dock",50000,,TRUE,,10,20,30,40,org.sutopia.starsector.mod.moderncarrier.hullmods.core.BastionCarrierCore,"Reduce fighter operating range to %s.
@@ -22,10 +20,6 @@ Fighter missile max speed increased by %s.
 
 Can not work in conjunction with another Carrier Core.","Fighter bounded to carrier with greatly enhanced performance",graphics/hullmods/mechanical_engineering_sm.png
 Ace Carrier Core,singletoncarrier,3,,"Core Carrier","req_spaceport, special, Fighters, merc, non_phase, carrier_core, req_military","Fighters, Requires Dock",50000,,,,30,30,30,30,org.sutopia.starsector.mod.moderncarrier.hullmods.core.AceCarrierCore,"Deploy one single wing with significantly enhanced status. The amount of bonus applied is related to original deck count and the ordnance point cost of the fighter.
-
-Bonus type: %s
-
-%s
 
 Can not work in conjunction with another Carrier Core.","Exchange deck count for one enhanced wing",graphics/hullmods/fighter_doctrine_sm_rkmax.png
 Skirmish Carrier Core,rushbcarrier,3,,"Core Carrier","req_spaceport, special, Fighters, merc, non_phase, carrier_core, req_military","Fighters, Requires Dock",50000,,,,10,20,30,40,org.sutopia.starsector.mod.moderncarrier.hullmods.core.SkirmishCarrierCore,"Increases fighter top speed and acceleration by %s and allows zero-flux bonus to take effect at %s flux.
@@ -47,6 +41,8 @@ Support Carrier Core,jack_of_all_trades_carrier,3,,"Core Carrier","req_spaceport
 Each interceptor gives %s ECM rating
 Each bomber or assault fighter gives %s coordinated maneuver
 Each general fighter or support fighter reduces %s fleet-wide range reduction penalty casued by ECM disadvantage
+
+Fighters receive remote armor and hull repair near it's mothership. The repair rate is %s within %s range, and linearly reduces the heal rate to 0 until %s range from the mothership.
 
 Can not work in conjunction with another Carrier Core.","Apply various fleet-wide bonus",graphics/hullmods/advanced_tactics_sm.png
 # Modern hullmods,,,,,,,,,,,,,,,,,,
@@ -74,11 +70,10 @@ If a bomber is using a bomb bay, the penalty is halved and have increased rate o
 
 Bomber resumes original speed and maneuverability after dropping all bombs.
 
-Please note that some mod bombers may suffer low rate of fire or the affect not applying at all.","Double ammo for bomber but extremely slow before emptying ammo",graphics/hullmods/external_bomb.png
+Please note that some mod bombers may suffer low rate of fire or the effects not applying at all.","Double ammo for bomber but extremely slow before emptying ammo",graphics/hullmods/external_bomb.png
 Advanced Fighter Command,emergencyfighters,2,,"Modern","Fighters, merc, non_phase","Fighters",20000,,,,5,10,15,20,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.FighterEmergencyLaunch,"When a wing suffers fighter loss, increase replacement speed according to wing loss severity, up to %s when wing is fully destroyed.
 
-When launching fighter with the system, it will cost additional replacement rate. The cost is proportional to fighter replacement time and the replacement speed bonus.
-If such cost would drop replacement rate below minimum allowed replacement rate, safety protocol will terminate the launch and resume to default replacement algorithm.","Force launch fighter at cost of replacement rate when wing eliminated",graphics/hullmods/advanced_launch.png
+When launching fighter with the system, it will cost additional replacement rate. The cost is proportional to fighter replacement time and the replacement speed bonus. If such cost would drop replacement rate below minimum allowed replacement rate, safety protocol will terminate the launch and resume to default replacement algorithm.","Force launch fighter at cost of replacement rate when wing eliminated",graphics/hullmods/advanced_launch.png
 Fighter Armor Removal,fighternoarmor,1,,"Modern","Fighters, special, merc, non_phase","Fighters",5000,,,,2,4,6,10,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.StripFighterArmor,"Removes all fighter armor for better agility and flux status.
 
 For every %s base armor:
@@ -86,13 +81,7 @@ Increase max speed by %s.
 Increase maneuverability by %s.
 Increase %s flux capacity
 Increase %s flux disippation","Remove fighter armor for better agility and flux status.",graphics/hullmods/construction_sm.png
-Targeting Data Link,fightercopycarriertargeting,3,,"Modern","Fighters, merc, non_phase","Fighters",50000,,,,3,6,12,18,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.DataTargetingLink,"Establish data link between carrier and its fighters, apply targeting unit bonus to fighters
-
-Currently, these range bonuses applies to fighters launched by this ship:
-Energy weapon range increased by %s
-Ballistic weapon range increased by %s
-Beam PD range is increased by additional %s
-Non-beam PD range is increased by additional %s","Fighter benefits from carrier targeting unit",graphics/hullmods/loadout_design_sm.png
+Targeting Data Link,fightercopycarriertargeting,3,,"Modern","Fighters, merc, non_phase","Fighters",50000,,,,3,6,12,18,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.DataTargetingLink,"Establish data link between carrier and its fighters, apply targeting unit bonus to fighters","Fighter benefits from carrier targeting unit",graphics/hullmods/loadout_design_sm.png
 Flux Quantum Entanglement,fighteroverloadscarrier,3,,"Modern","Fighters, merc, non_phase","Fighters",50000,,,,10,15,20,30,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.ShareFluxOverload,"Fighter transfers all flux to carrier. 
 
 Important notes:

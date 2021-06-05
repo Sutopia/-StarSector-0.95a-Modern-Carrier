@@ -1,12 +1,12 @@
 {
-    "displayName": "Cursed",
-    "fluxCapacitors": 6,
+    "displayName": "Neptune",
+    "fluxCapacitors": 4,
     "fluxVents": 6,
     "hullId": "astral",
-    "hullMods": ["hardened_subsystems","carriersafetyoverrides","fatfighters","carrierloadbalance","expanded_deck_crew"],
+    "hullMods": ["hardened_subsystems","carriersafetyoverrides","fatfighters","carrierloadbalance","expanded_deck_crew","rtscarrier"],
     "permaMods": [],
     "sMods": [],
-    "variantId": "astral_su_Cursed",
+    "variantId": "astral_su_Cursed_2",
     "weaponGroups": [
         {
             "autofire": false,
@@ -41,11 +41,11 @@
         }
     ],
     "wings": [
-        "thunder_wing",
-        "thunder_wing",
-        "thunder_wing",
-        "thunder_wing",
-        "thunder_wing",
-        "thunder_wing",
+        "talon_wing",
+        "talon_wing",
+        "claw_wing",
+        "gladius_wing",
+        "gladius_wing",
+        "claw_wing",
     ]
 }

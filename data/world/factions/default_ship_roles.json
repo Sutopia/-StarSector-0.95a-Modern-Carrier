@@ -24,8 +24,9 @@
 	},
 	
 	"carrierLarge":{
-		"astral_su_Task":4,
+		"astral_su_Task":3,
 		"astral_su_Cursed":1,
+		"astral_su_Cursed_2":2,
 	},
 	
 	"combatCapital":{
