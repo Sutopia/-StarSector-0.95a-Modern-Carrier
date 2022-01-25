@@ -1,9 +1,9 @@
 {
 	"knownHullMods":{
 		"hullMods":[
-			"bastioncarrier",
 			"fatfighters",
 			"fighternoarmor",
+			"jack_of_all_trades_carrier",
 		],
 	},
 },

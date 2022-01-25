@@ -3,7 +3,7 @@
     "fluxCapacitors": 0,
     "fluxVents": 0,
     "hullId": "mora",
-    "hullMods": ["eccm","rtscarrier","carrierloadbalance","fatfighters","fighternoarmor","expanded_deck_crew"],
+    "hullMods": ["eccm","jack_of_all_trades_carrier","carrierloadbalance","fatfighters","fighternoarmor","expanded_deck_crew"],
     "permaMods": [],
     "sMods": [],
     "variantId": "mora_su_Command",

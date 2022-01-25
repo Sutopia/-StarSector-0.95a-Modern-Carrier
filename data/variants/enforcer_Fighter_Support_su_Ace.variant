@@ -1,9 +1,9 @@
 {
     "displayName": "Ace Fighter Support",
-    "fluxCapacitors": 8,
+    "fluxCapacitors": 12,
     "fluxVents": 15,
     "hullId": "enforcer",
-    "hullMods": ["converted_hangar","singletoncarrier"],
+    "hullMods": ["converted_hangar","singletoncarrier","fatfighters"],
     "permaMods": [],
     "variantId": "enforcer_Fighter_Support_su_Ace",
     "weaponGroups": [
@@ -12,7 +12,7 @@
             "mode": "LINKED",
             "weapons": {
                 "WS 001": "flak",
-                "WS 003": "flak",
+                #"WS 003": "flak",
                 "WS 005": "flak"
             }
         },
@@ -20,10 +20,10 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS 002": "heavyac",
-                "WS 004": "heavyac"
+                "WS 002": "heavymortar",
+                "WS 004": "heavymortar"
             }
         }
     ],
-    "wings": ["talon_wing"]
+    "wings": ["broadsword_wing"]
 }

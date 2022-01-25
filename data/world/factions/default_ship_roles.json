@@ -19,7 +19,7 @@
 	},
 	
 	"carrierMedium":{
-		"mora_su_Command":2,
+		"mora_su_Command":5,
 		"heron_su_Blitz":5,
 	},
 	
@@ -27,6 +27,10 @@
 		"astral_su_Task":3,
 		"astral_su_Cursed":1,
 		"astral_su_Cursed_2":2,
+	},
+	
+	"combatLarge":{
+		"dominator_su_Ace_Support":2,
 	},
 	
 	"combatCapital":{

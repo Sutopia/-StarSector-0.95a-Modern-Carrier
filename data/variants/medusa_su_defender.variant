@@ -1,7 +1,7 @@
 {
     "displayName": "Assault",
-    "fluxCapacitors": 4,
-    "fluxVents": 7,
+    "fluxCapacitors": 6,
+    "fluxVents": 15,
     "hullId": "medusa",
     "hullMods": ["converted_hangar","singletoncarrier"],
     "permaMods": [],
@@ -10,10 +10,10 @@
     "weaponGroups": [
         {
             "autofire": true,
-            "mode": "LINKED",
+            "mode": "ALTERNATING",
             "weapons": {
-                "WS 006": "phasebeam",
-                "WS 007": "phasebeam"
+                "WS 006": "pulselaser",
+                "WS 007": "pulselaser"
             }
         },
         {

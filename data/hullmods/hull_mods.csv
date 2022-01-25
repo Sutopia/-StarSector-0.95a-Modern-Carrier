@@ -19,7 +19,7 @@ Fighter non-missile weapon range increased by %s.
 Fighter missile max speed increased by %s.
 
 Can not work in conjunction with another Carrier Core.","Fighter bounded to carrier with greatly enhanced performance",graphics/hullmods/mechanical_engineering_sm.png
-Ace Carrier Core,singletoncarrier,3,,"Core Carrier","req_spaceport, special, Fighters, merc, non_phase, carrier_core, req_military","Fighters, Requires Dock",50000,,,,30,30,30,30,org.sutopia.starsector.mod.moderncarrier.hullmods.core.AceCarrierCore,"Deploy one single wing with significantly enhanced status. The amount of bonus applied is related to original deck count and the ordnance point cost of the fighter.
+Ace Carrier Core,singletoncarrier,3,,"Core Carrier","req_spaceport, special, Fighters, merc, non_phase, carrier_core, req_military","Fighters, Requires Dock",50000,,,,10,15,20,30,org.sutopia.starsector.mod.moderncarrier.hullmods.core.AceCarrierCore,"Deploy one single wing with significantly enhanced status but costs additional %s ordnance points.
 
 Can not work in conjunction with another Carrier Core.","Exchange deck count for one enhanced wing",graphics/hullmods/fighter_doctrine_sm_rkmax.png
 Skirmish Carrier Core,rushbcarrier,3,,"Core Carrier","req_spaceport, special, Fighters, merc, non_phase, carrier_core, req_military","Fighters, Requires Dock",50000,,,,10,20,30,40,org.sutopia.starsector.mod.moderncarrier.hullmods.core.SkirmishCarrierCore,"Increases fighter top speed and acceleration by %s and allows zero-flux bonus to take effect at %s flux.
@@ -63,10 +63,10 @@ Electronic Superiority,ecmfighters,2,,"Modern","Fighters, merc, non_phase, speci
 The effect does not apply to bombers","Fighter has ECM",graphics/hullmods/su_modern_fighter_ecm.png
 Bomber External Hardpoint,fightermorebomb,2,,"Modern","Fighters, offensive, merc, non_phase","Fighters",20000,,,,10,15,20,30,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.FighterExternalBombBay,"Mount additional ammunitions on bomber's external hardpoints
 
-Bomber max ammo increased by %s.
-Bomber max speed and maneuverability reduced by %s.
+Bomber max ammo increased by %s
+Extra ammunitions' damage is reduced by %s
+Bomber max speed and maneuverability reduced by %s
 A bombing run will last no less than %s seconds.
-If a bomber is using a bomb bay, the penalty is halved and have increased rate of fire to finish bombing run in one pass.
 
 Bomber resumes original speed and maneuverability after dropping all bombs.
 
@@ -83,9 +83,9 @@ Increase %s flux capacity
 Increase %s flux disippation","Remove fighter armor for better agility and flux status.",graphics/hullmods/construction_sm.png
 Targeting Data Link,fightercopycarriertargeting,3,,"Modern","Fighters, merc, non_phase","Fighters",50000,,,,3,6,12,18,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.DataTargetingLink,"Establish data link between carrier and its fighters, apply targeting unit bonus to fighters","Fighter benefits from carrier targeting unit",graphics/hullmods/loadout_design_sm.png
 Flux Quantum Entanglement,fighteroverloadscarrier,3,,"Modern","Fighters, merc, non_phase","Fighters",50000,,,,10,15,20,30,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.ShareFluxOverload,"Fighter transfers all flux to carrier. 
+Applies additional hard flux at %s of transferred flux.
 
-Important notes:
-May overload carrier.
+Important note:
 Extremely high burst damage may overload a fighter before it can channel flux to carrier.
 
 Does not transfer flux when either fighter or carrier is overloaded or venting.","Fighter transfers flux to carrier",graphics/hullmods/power_grid_manipulation_sm.png

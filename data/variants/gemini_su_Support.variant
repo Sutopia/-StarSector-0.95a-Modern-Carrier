@@ -1,9 +1,9 @@
 {
     "displayName": "Support",
-    "fluxCapacitors": 2,
+    "fluxCapacitors": 3,
     "fluxVents": 0,
     "hullId": "gemini",
-    "hullMods": ["militarized_subsystems","singletoncarrier"],
+    "hullMods": ["militarized_subsystems","singletoncarrier","fatfighters"],
     "permaMods": [],
     "sMods": [],
     "variantId": "gemini_su_Support",
@@ -17,8 +17,8 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS 001": "flak",
-                "WS 002": "flak"
+                "WS 001": "shredder",
+                "WS 002": "shredder"
             }
         }
     ],

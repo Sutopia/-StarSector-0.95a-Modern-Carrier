@@ -1,6 +1,6 @@
 {
     "displayName": "Sutando",
-    "fluxCapacitors": 4,
+    "fluxCapacitors": 1,
     "fluxVents": 0,
     "hullId": "drover",
     "hullMods": ["singletoncarrier","fatfighters"],
@@ -17,6 +17,16 @@
                 "WS 005": "sabot"
             }
         },
+		{
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 000": "lightmg"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "lightmg"}
+        }
     ],
     "wings": [
         "warthog_wing",

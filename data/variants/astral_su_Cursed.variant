@@ -1,5 +1,5 @@
 {
-    "displayName": "Cursed",
+    "displayName": "Storm",
     "fluxCapacitors": 6,
     "fluxVents": 6,
     "hullId": "astral",
@@ -13,6 +13,12 @@
             "mode": "ALTERNATING",
             "weapons": {
                 "WS 011": "hurricane",
+            }
+        },
+		{
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
                 "WS 012": "locust"
             }
         },
