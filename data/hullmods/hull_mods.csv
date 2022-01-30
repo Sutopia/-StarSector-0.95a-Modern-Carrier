@@ -1,5 +1,5 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
-Fighter Command Overclock,carriersafetyoverrides,3,,Modern,"special, Fighters, offensive, merc, no_build_in, non_phase, req_military","Special, Fighters",100000,,,,10,20,40,60,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.CarrierSafetyOverride,"Overclocking the fighter command unit, replacement rate no longer decreases due to fighter loss.
+Fighter Command Overclock,carriersafetyoverrides,3,,Modern,"special, Fighters, offensive, merc, no_build_in, non_phase, req_military, vEx_safetyoverrides, fighter_fast_launch","Special, Fighters",100000,,,,10,20,40,60,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.CarrierSafetyOverride,"Overclocking the fighter command unit, replacement rate no longer decreases due to fighter loss.
 Convert replacement rates into reserve deployments, and allows the zero-flux engine boost to take effect regardless of flux level.
 
 Reduces the peak performance time by a factor of %s and drastically reduces fighter operating range by %s.","Drastic improvement in performance, much lower peak time.",graphics/hullmods/overclock_cpu.png
@@ -71,7 +71,7 @@ A bombing run will last no less than %s seconds.
 Bomber resumes original speed and maneuverability after dropping all bombs.
 
 Please note that some mod bombers may suffer low rate of fire or the effects not applying at all.","Double ammo for bomber but extremely slow before emptying ammo",graphics/hullmods/external_bomb.png
-Advanced Fighter Command,emergencyfighters,2,,"Modern","Fighters, merc, non_phase","Fighters",20000,,,,5,10,15,20,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.FighterEmergencyLaunch,"When a wing suffers fighter loss, increase replacement speed according to wing loss severity, up to %s when wing is fully destroyed.
+Advanced Fighter Command,emergencyfighters,2,,"Modern","Fighters, merc, non_phase, fighter_fast_launch","Fighters",20000,,,,5,10,15,20,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.FighterEmergencyLaunch,"When a wing suffers fighter loss, increase replacement speed according to wing loss severity, up to %s when wing is fully destroyed.
 
 When launching fighter with the system, it will cost additional replacement rate. The cost is proportional to fighter replacement time and the replacement speed bonus. If such cost would drop replacement rate below minimum allowed replacement rate, safety protocol will terminate the launch and resume to default replacement algorithm.","Force launch fighter at cost of replacement rate when wing eliminated",graphics/hullmods/advanced_launch.png
 Fighter Armor Removal,fighternoarmor,1,,"Modern","Fighters, special, merc, non_phase","Fighters",5000,,,,2,4,6,10,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.StripFighterArmor,"Removes all fighter armor for better agility and flux status.
@@ -82,10 +82,15 @@ Increase maneuverability by %s.
 Increase %s flux capacity
 Increase %s flux disippation","Remove fighter armor for better agility and flux status.",graphics/hullmods/construction_sm.png
 Targeting Data Link,fightercopycarriertargeting,3,,"Modern","Fighters, merc, non_phase","Fighters",50000,,,,3,6,12,18,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.DataTargetingLink,"Establish data link between carrier and its fighters, apply targeting unit bonus to fighters","Fighter benefits from carrier targeting unit",graphics/hullmods/loadout_design_sm.png
-Flux Quantum Entanglement,fighteroverloadscarrier,3,,"Modern","Fighters, merc, non_phase","Fighters",50000,,,,10,15,20,30,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.ShareFluxOverload,"Fighter transfers all flux to carrier. 
+Flux Quantum Entanglement,fighteroverloadscarrier,3,,"Modern","Fighters, merc, non_phase, fighter_flux","Fighters",50000,,,,10,15,20,30,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.ShareFluxOverload,"Fighter transfers all flux to carrier. 
 Applies additional hard flux at %s of transferred flux.
 
 Important note:
 Extremely high burst damage may overload a fighter before it can channel flux to carrier.
 
 Does not transfer flux when either fighter or carrier is overloaded or venting.","Fighter transfers flux to carrier",graphics/hullmods/power_grid_manipulation_sm.png
+Burnout Reactor,fighterbanzaiprotocol,2,,"Modern","Fighters, merc, non_phase, fighter_flux","Fighters",20000,,,,3,6,12,18,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.BurnoutReactor,"Fighters no longer overload.
+
+Any flux above %s is transformed into hull damage.","Fighter never overload but burns",graphics/hullmods/su_burn_hull_for_flux.png
+Steady Bombing Protocol,baybomberspecial,,,"Modern","Fighters, special, non_phase","Fighters",0,TRUE,,,0,0,0,0,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.SteadyApproach,"Bombers slow down to deplete the bomb bay before reaching target.","Bomber slows down",graphics/hullmods/reduced_explosion.png
+
