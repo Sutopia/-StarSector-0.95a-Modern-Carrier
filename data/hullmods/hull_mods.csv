@@ -9,7 +9,7 @@ Fighter EMP damage taken reduced by %s
 Carrier in-combat sight range increased by %s","Greatly improved fighters.",graphics/hullmods/advanced_carrier.png
 Swarm Carrier Core,swarmcarrier,3,,"Core Carrier","req_spaceport, special, Fighters, merc, non_phase, carrier_core, req_military","Fighters, Requires Dock",50000,,,,0,0,20,40,org.sutopia.starsector.mod.moderncarrier.hullmods.core.SwarmCarrierCore,"Increases the available hanger by %s/%s for cruisers/capital ships.
 
-Due to extra stress on the fighter system, the manufactory suffers degraded performance. The fewer decks a ship orignially has, the higher the penalty.
+Due to extra stress on the ship logistics, the manufactory suffers degraded performance and the ship costs extra deployment points. The fewer decks a ship orignially has, the higher the penalty.
 
 Can not be installed on a frigate or a destroyer, and can not work in conjunction with another Carrier Core.","More fighter decks, reduced fighter replacement speed",graphics/hullmods/expanded_hanger.png
 Bastion Carrier Core,bastioncarrier,3,,"Core Carrier","req_spaceport, special, Fighters, merc, non_phase, carrier_core, req_military","Fighters, Requires Dock",50000,,TRUE,,10,20,30,40,org.sutopia.starsector.mod.moderncarrier.hullmods.core.BastionCarrierCore,"Reduce fighter operating range to %s.
