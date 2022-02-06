@@ -6,4 +6,6 @@
     "auto_fighter_return_danger" : 0.4,    #Hull level for significant threat present, default 0.4
     "auto_fighter_return_combat" : 0.7,    #Hull level for minor threat present, default 0.7
     "auto_fighter_return_prepare" : 0.9,   #Hull level for no threat present, default 0.9
+	
+    "fighter_command_alt_msg_interval" : 1.0,
 }
