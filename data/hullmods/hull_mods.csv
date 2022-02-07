@@ -53,6 +53,8 @@ Can not work in conjunction with another Carrier Core.","REEEEEEE",graphics/icon
 Avatar Carrier Core,horashio_carrier,,,"Core Carrier","req_spaceport, Fighters, special, non_phase, merc, carrier_core","Fighters",50000,,,,10,15,20,30,org.sutopia.starsector.mod.moderncarrier.hullmods.core.AvatarCore,"Captain is the embodiment of a ship, and so should it be the embodiment of fighters.
 Create clone of the ship captain as fighter pilots.
 
+Effects that are applied prior to entering battle will not apply, for instance, maximum missile from missile spec and combat readiness from combat endurance.
+
 Can not work in conjunction with another Carrier Core.","REEEEEEE",graphics/portraits/portrait_generic.png
 # Modern hullmods,,,,,,,,,,,,,,,,,,
 Manufactory Load Balance,carrierloadbalance,2,,"Modern","Fighters, merc, non_phase","Fighters",20000,,,,2,4,6,10,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.FighterBayLoadBalance,"Redistributes manufactory production power, an idle manufactory transfers its replacement rate to a bay replacing lost fighters.
