@@ -14,13 +14,6 @@ Increase monthly maintenance cost by %s per added flight deck.
 For non-automated ship, increase required crew by %s per added flight deck.
 
 Can not be installed on a frigate or a destroyer, and can not work in conjunction with another Carrier Core.","More fighter decks, reduced fighter replacement speed",graphics/hullmods/expanded_hanger.png
-Bastion Carrier Core,bastioncarrier,3,,"Core Carrier","req_spaceport, special, Fighters, merc, non_phase, carrier_core, req_military","Fighters, Requires Dock",50000,,TRUE,,10,20,30,40,org.sutopia.starsector.mod.moderncarrier.hullmods.core.BastionCarrierCore,"Reduce fighter operating range to %s.
-
-Fighter damage taken reduced by %s. 
-Fighter non-missile weapon range increased by %s. 
-Fighter missile max speed increased by %s.
-
-Can not work in conjunction with another Carrier Core.","Fighter bounded to carrier with greatly enhanced performance",graphics/hullmods/mechanical_engineering_sm.png
 Ace Carrier Core,singletoncarrier,3,,"Core Carrier","req_spaceport, special, Fighters, merc, non_phase, carrier_core, req_military","Fighters, Requires Dock",50000,,,,10,15,20,30,org.sutopia.starsector.mod.moderncarrier.hullmods.core.AceCarrierCore,"Deploy one single wing with significantly enhanced status but costs additional %s ordnance points.
 
 Can not work in conjunction with another Carrier Core.","Exchange deck count for one enhanced wing",graphics/hullmods/fighter_doctrine_sm_rkmax.png
@@ -47,9 +40,6 @@ Each general fighter or support fighter reduces %s fleet-wide range reduction pe
 Fighters receive remote armor and hull repair near it's mothership. The repair rate is %s within %s range, and linearly reduces the heal rate to 0 until %s range from the mothership.
 
 Can not work in conjunction with another Carrier Core.","Apply various fleet-wide bonus",graphics/hullmods/advanced_tactics_sm.png
-Alpha Carrier Core,aiisnowincharge,,,"Core Carrier","req_spaceport, Fighters, special, non_phase, merc, carrier_core","Fighters",0,,TRUE,,10,15,20,30,org.sutopia.starsector.mod.moderncarrier.hullmods.core.AIAssistCore,"AI can assist fighter controls and greatly imrpove fighter performance.
-
-Can not work in conjunction with another Carrier Core.","REEEEEEE",graphics/icons/cargo/ai_core_alpha.png
 Avatar Carrier Core,horashio_carrier,,,"Core Carrier","req_spaceport, Fighters, special, non_phase, merc, carrier_core","Fighters",50000,,,,10,15,20,30,org.sutopia.starsector.mod.moderncarrier.hullmods.core.AvatarCore,"Captain is the embodiment of a ship, and so should it be the embodiment of fighters.
 Create clone of the ship captain as fighter pilots.
 
@@ -69,9 +59,6 @@ Fighter flux status increased by %s.
 Fighter max speed and maneuverability reduced by %s.
 
 The effect does not apply to bombers","Fighter project more firepower but much slower speed",graphics/hullmods/ordnance_expert_sm.png
-Electronic Superiority,ecmfighters,2,,"Modern","Fighters, merc, non_phase, special","Fighters, Support",20000,,TRUE,,5,10,15,25,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.FighterECMPMinor,"Each active fighter or interceptor grants %s ECM rating.
-
-The effect does not apply to bombers","Fighter has ECM",graphics/hullmods/su_modern_fighter_ecm.png
 Bomber External Hardpoint,fightermorebomb,2,,"Modern","Fighters, offensive, merc, non_phase","Fighters",20000,,,,10,15,20,30,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.FighterExternalBombBay,"Mount additional ammunitions on bomber's external hardpoints
 
 Bomber ammo increased by %s
@@ -103,5 +90,23 @@ Burnout Reactor,fighterbanzaiprotocol,2,,"Modern","Fighters, merc, non_phase, fi
 
 Any flux above %s is transformed into hull damage.","Fighter never overload but burns",graphics/hullmods/su_burn_hull_for_flux.png
 Steady Bombing Protocol,baybomberspecial,,,"Modern","Fighters, special, non_phase","Fighters",0,TRUE,,,0,0,0,0,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.SteadyApproach,"Bombers slow down to deplete the bomb bay before reaching target.","Bomber slows down",graphics/hullmods/reduced_explosion.png
-You should not see this,istorethealphacore,,,"Modern","Fighters, special, non_phase","Fighters",0,,TRUE,TRUE,0,0,0,0,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.InstalledAIAssistant,"","",graphics/icons/cargo/ai_core_alpha.png
+
+# Discontinued,,,,,,,,,,,,,,,,,,
+Bastion Carrier Core,bastioncarrier,3,,"Core Carrier","req_spaceport, special, Fighters, merc, non_phase, carrier_core, req_military","Fighters, Requires Dock",50000,,TRUE,,10,20,30,40,org.sutopia.starsector.mod.moderncarrier.hullmods.core.BastionCarrierCore,"Reduce fighter operating range to %s.
+
+Fighter damage taken reduced by %s. 
+Fighter non-missile weapon range increased by %s. 
+Fighter missile max speed increased by %s.
+
+Can not work in conjunction with another Carrier Core.","Fighter bounded to carrier with greatly enhanced performance",graphics/hullmods/mechanical_engineering_sm.png
+Electronic Superiority,ecmfighters,2,,"Modern","Fighters, merc, non_phase, special","Fighters, Support",20000,,TRUE,,5,10,15,25,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.FighterECMPMinor,"Each active fighter or interceptor grants %s ECM rating.
+
+The effect does not apply to bombers","Fighter has ECM",graphics/hullmods/su_modern_fighter_ecm.png
+
+
+# Deprecated,,,,,,,,,,,,,,,,,,
+alpha core hidden,istorethealphacore,,,"Modern","Fighters, special, non_phase","Fighters",0,,TRUE,TRUE,0,0,0,0,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.InstalledAIAssistant,"","",graphics/icons/cargo/ai_core_alpha.png
+Alpha Carrier Core,aiisnowincharge,,,"Core Carrier","req_spaceport, Fighters, special, non_phase, merc, carrier_core","Fighters",0,,TRUE,,10,15,20,30,org.sutopia.starsector.mod.moderncarrier.hullmods.core.AIAssistCore,"AI can assist fighter controls and greatly imrpove fighter performance.
+
+Can not work in conjunction with another Carrier Core.","REEEEEEE",graphics/icons/cargo/ai_core_alpha.png
 
