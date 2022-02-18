@@ -2,13 +2,16 @@
 	"knownHullMods":{
 		"hullMods":[
 			"advancedcarrier",
+			"horashio_carrier",
 			"carrierloadbalance",
 			"fatfighters",
 			"fightermorebomb",
 			"emergencyfighters",
+			"fighterbanzaiprotocol",
 			"fighternoarmor",
 			"fightercopycarriertargeting",
 			"jack_of_all_trades_carrier",
+			"remnant_happy_carrier",
 		],
 	},
 },

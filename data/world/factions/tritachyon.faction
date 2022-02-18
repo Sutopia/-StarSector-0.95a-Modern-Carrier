@@ -5,6 +5,7 @@
 			"singletoncarrier",
 			"swarmcarrier",
 			"rtscarrier",
+			"horashio_carrier",
 			"carrierloadbalance",
 			"fighteroverloadscarrier",
 			"fightercopycarriertargeting",

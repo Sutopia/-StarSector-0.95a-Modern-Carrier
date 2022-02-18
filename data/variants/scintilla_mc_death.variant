@@ -1,0 +1,33 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 5,
+    "fluxVents": 0,
+    "hullId": "scintilla",
+    "hullMods": [
+        "remnant_happy_carrier",
+        "horashio_carrier",
+        "eccm"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "scintilla_mc_death",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "pilum"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 007": "harpoon",
+                "WS 008": "harpoon"
+            }
+        }
+    ],
+    "wings": [
+        "longbow_wing",
+        "longbow_wing"
+    ]
+}
