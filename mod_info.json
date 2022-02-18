@@ -3,14 +3,15 @@
     "name": "Modern Carriers",
     "author": "Sutopia",
     "utility": "false",
-    "version": "1.8.3d",
+    "version": "1.8.5a",
     "description": "New carrier hull mods for more carrier specialization.",
     "gameVersion": "0.95.1a-RC6",
 	"jars": ["jar/SutCarM.jar"],
 	"dependencies": [
         {
             "id": "su_Concord",
-            "name": "Mod Concord",
+            "name": "Concord",
         },
     ],
+	"modPlugin": "org.sutopia.starsector.mod.moderncarrier.ModernCarrierModPlugin",
 }
