@@ -3,6 +3,7 @@ Fighter Command Overclock,carriersafetyoverrides,3,,Modern,"special, Fighters, o
 Convert replacement rates into reserve deployments, and allows the zero-flux engine boost to take effect regardless of flux level.
 
 Reduces the peak performance time by a factor of %s and drastically reduces fighter operating range by %s.","Drastic improvement in performance, much lower peak time.",graphics/hullmods/overclock_cpu.png
+,,,,,,,,,,,,,,,,,,
 # Core hullmods,,,,,,,,,,,,,,,,,,
 Advanced Carrier,advancedcarrier,,,,"req_spaceport, no_build_in, req_military","Special, Fighters",,,TRUE,,10,20,30,50,org.sutopia.starsector.mod.moderncarrier.hullmods.core.AdvancedCarrier,"Fighter wing receive %s time dilation and increased operating range
 Fighter EMP damage taken reduced by %s
@@ -46,6 +47,7 @@ Create clone of the ship captain as fighter pilots.
 Effects that are applied prior to entering battle will not apply, for instance, maximum missile from missile spec and combat readiness from combat endurance.
 
 Can not work in conjunction with another Carrier Core.",REEEEEEE,graphics/portraits/portrait_generic.png
+,,,,,,,,,,,,,,,,,,
 # Modern hullmods,,,,,,,,,,,,,,,,,,
 Manufactory Load Balance,carrierloadbalance,2,,Modern,"Fighters, merc, non_phase",Fighters,20000,,,,2,4,6,10,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.FighterBayLoadBalance,"Redistributes manufactory production power, an idle manufactory transfers its replacement rate to a bay replacing lost fighters.
 
@@ -92,6 +94,7 @@ Any flux above %s is transformed into hull damage.",Fighter never overload but b
 Steady Bombing Protocol,baybomberspecial,,,Modern,"Fighters, special, non_phase",Fighters,0,TRUE,,,0,0,0,0,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.SteadyApproach,Bombers slow down to deplete the bomb bay before reaching target.,Bomber slows down,graphics/hullmods/reduced_explosion.png
 Autopilot Interface,remnant_happy_carrier,3,,Modern,"special, non_phase, no_build_in",Fighters,10000,,,,4,8,12,25,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.RealAutomatedFighters,An interface for AI core to control manned fighters.,Allows regular fighters to be used by automated carriers ,graphics/hullmods/neural_integrator_green.png
 Automated Fighters Listener,iambecomedeathdestroyerofautofighters,,,,,,,,TRUE,TRUE,0,0,0,0,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.AutomatedFightersListener,,,graphics/hullmods/su_modern_fighter_ecm.png
+,,,,,,,,,,,,,,,,,,
 # Discontinued,,,,,,,,,,,,,,,,,,
 Bastion Carrier Core,bastioncarrier,3,,Core Carrier,"req_spaceport, special, Fighters, merc, non_phase, carrier_core, req_military","Fighters, Requires Dock",50000,,TRUE,,10,20,30,40,org.sutopia.starsector.mod.moderncarrier.hullmods.core.BastionCarrierCore,"Reduce fighter operating range to %s.
 
@@ -103,6 +106,7 @@ Can not work in conjunction with another Carrier Core.",Fighter bounded to carri
 Electronic Superiority,ecmfighters,2,,Modern,"Fighters, merc, non_phase, special","Fighters, Support",20000,,TRUE,,5,10,15,25,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.FighterECMPMinor,"Each active fighter or interceptor grants %s ECM rating.
 
 The effect does not apply to bombers",Fighter has ECM,graphics/hullmods/su_modern_fighter_ecm.png
+,,,,,,,,,,,,,,,,,,
 # Deprecated,,,,,,,,,,,,,,,,,,
 alpha core hidden,istorethealphacore,,,Modern,"Fighters, special, non_phase",Fighters,0,,TRUE,TRUE,0,0,0,0,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.InstalledAIAssistant,,,graphics/icons/cargo/ai_core_alpha.png
 Alpha Carrier Core,aiisnowincharge,,,Core Carrier,"req_spaceport, Fighters, special, non_phase, merc, carrier_core",Fighters,0,,TRUE,,10,15,20,30,org.sutopia.starsector.mod.moderncarrier.hullmods.core.AIAssistCore,"AI can assist fighter controls and greatly imrpove fighter performance.
