@@ -8,4 +8,6 @@
     "auto_fighter_return_prepare" : 0.9,   #Hull level for no threat present, default 0.9
 	
     "fighter_command_alt_msg_interval" : 1.0,
+    
+    "modern_enable_all_zero_crew_auto_fighter" : false, #Make all 0 crew fighters drone fighter
 }
