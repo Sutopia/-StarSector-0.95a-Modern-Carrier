@@ -1,0 +1,7 @@
+{
+	"su_modern_carrier_strings":{
+                reason_unable_standardize: "You must remove all modular fighter wings to perform or undo the modification",
+                reason_no_built_in: "There is no built-in wing on this ship",
+                reason_has_fighter: "The ship already has fighter bay",
+	}
+}

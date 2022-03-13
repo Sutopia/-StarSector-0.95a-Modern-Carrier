@@ -2,11 +2,14 @@
     "plugins": {
         "ModernCarrierFighterReturnPlugin": "org.sutopia.starsector.mod.moderncarrier.FighterAutoReturnPlugin",
     },
-    "auto_fighter_return_critical" : 0.0,  #Hull level for instant recall regardless of order, default 0
-    "auto_fighter_return_danger" : 0.4,    #Hull level for significant threat present, default 0.4
-    "auto_fighter_return_combat" : 0.7,    #Hull level for minor threat present, default 0.7
-    "auto_fighter_return_prepare" : 0.9,   #Hull level for no threat present, default 0.9
+    "auto_fighter_return_critical" : 0.0,   #Hull level for instant recall regardless of order, default 0
+    "auto_fighter_return_danger" : 0.4,     #Hull level for significant threat present, default 0.4
+    "auto_fighter_return_combat" : 0.7,     #Hull level for minor threat present, default 0.7
+    "auto_fighter_return_prepare" : 0.9,    #Hull level for no threat present, default 0.9
 	
+    "ban_carrie_engage_rate" : 0.7,         #Replacement rate to ban carrier from engaging
+    "resume_carrier_engage_rate" : 0.85,    #Replacement rate to resume carrier operation after getting banned
+    
     "fighter_command_alt_msg_interval" : 1.0,
     
     "modern_enable_all_zero_crew_auto_fighter" : false, #Make all 0 crew fighters drone fighter

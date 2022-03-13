@@ -42,6 +42,15 @@ Each general fighter or support fighter reduces %s fleet-wide range reduction pe
 Fighters receive remote armor and hull repair near it's mothership. The repair rate is %s within %s range, and linearly reduces the heal rate to 0 until %s range from the mothership.
 
 Can not work in conjunction with another Carrier Core.",Apply various fleet-wide bonus,graphics/hullmods/advanced_tactics_sm.png
+Support Carrier Core,all_fighters_now_support,3,,Core Carrier,"auto_concord, concord_implicit, req_spaceport, special, Fighters, merc, non_phase, carrier_core, req_military, vEx_fighter_conversion, no_drop, no_drop_salvage","Support, Fighters, Requires Dock",50000,,TRUE,,5,10,20,30,org.sutopia.starsector.mod.moderncarrier.hullmods.core.SupportConversionCore,"Converts all modular fighter wings into support wings which can be assigned to protect ally ships within engagement or support range.
+Modular fighters can no longer be assigned to engage enemy ships,
+
+Fighters receive %s and %s effects.
+Fighter armaments receive %s.
+
+Fighters receive remote armor and hull repair near it's mothership. The repair rate is %s within %s range, and linearly reduces the heal rate to 0 until %s range from the mothership.
+
+Can not work in conjunction with another Carrier Core.",All fighters focus on ally support and PD,graphics/hullmods/icon_fire_support_hm.png
 Avatar Carrier Core,horashio_carrier,,,Core Carrier,"req_spaceport, Fighters, special, non_phase, merc, carrier_core",Fighters,50000,,,,10,15,20,30,org.sutopia.starsector.mod.moderncarrier.hullmods.core.AvatarCore,"Captain is the embodiment of a ship, and so should it be the embodiment of fighters.
 Create clone of the ship captain as fighter pilots.
 
@@ -78,17 +87,28 @@ Increase max speed by %s.
 Increase maneuverability by %s.
 Increase %s flux capacity
 Increase %s flux disippation",Remove fighter armor for better agility and flux status.,graphics/hullmods/construction_sm.png
-Steady Bombing Protocol,baybomberspecial,,,Modern,"Fighters, special, non_phase",Fighters,0,TRUE,,,0,0,0,0,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.SteadyApproach,Bombers slow down to deplete the bomb bay before reaching target.,Bomber slows down,graphics/hullmods/reduced_explosion.png
 Autopilot Interface,remnant_happy_carrier,3,,Modern,"special, non_phase, no_build_in, no_drop, no_drop_salvage",Fighters,10000,,,,4,8,12,25,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.RealAutomatedFighters,An interface for AI core to control manned fighters.,Allows regular fighters to be used by automated carriers,graphics/hullmods/neural_integrator_green.png
 Automated Fighters Listener,iambecomedeathdestroyerofautofighters,,,,,,,,TRUE,TRUE,0,0,0,0,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.AutomatedFightersListener,,,graphics/hullmods/su_modern_fighter_ecm.png
-Disposable Fighter Shield Emitter,modern_fighter_flash_shielding,2,,Modern,"Fighters, special, merc, non_phase",Fighters,20000,,,,3,6,12,18,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.DisposableShielding,"When a fighter is overloaded, the fighter ditches the shield to stop overloading and removes %s flux in the process.
+Disposable Fighter Shield Emitter,modern_fighter_flash_shielding,2,,Modern,"Fighters, special, merc, non_phase",Fighters,20000,,,,3,6,12,18,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.DisposableShielding,"When a fighter is overloaded, the fighter ejects the shield emitter to stop overloading and removes %s flux in the process.
 
 If a fighter does not have a shield, install a %s degree %s shield at %s shield efficiency.",Fighter ditch shield when overload,graphics/hullmods/front_shield_generator_for_fighter.png
 Targeting Data Link,fightercopycarriertargeting,3,,Modern,"Fighters, merc, non_phase",Fighters,50000,,,,3,6,12,18,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.DataTargetingLink,"Establish data link between carrier and its fighters, sharing targeting data to improve weapon range.
 
 For carrier without on-board targeting hardwares, carrier receives %s bonus non-missile weapon range per wing within %s range of carrier's target, caps at %s/%s/%s/%s depending on hull size. 
 
-For carrier with targeting hardwares, increase fighters' non-missile weapon range by %s/%s/%s/%s depending on hull size. ",Fighter benefits from carrier targeting unit,graphics/hullmods/loadout_design_sm.png
+For carrier with targeting hardwares, increase fighters' non-missile weapon range by %s/%s/%s/%s depending on hull size. ",Fighter benefits from carrier targeting unit,graphics/hullmods/targeting_datalink.png
+Fighter Bay Standardization,modern_fighter_bay,3,,Modern,"Fighters, merc, non_phase, special, req_spaceport, no_build_in, vEx_hull_spec_mod","Fighters, Requires Dock, Special",50000,,,,10,10,15,20,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.FighterBayStandardization,Standardize fighter bays and remove all built-in wings.,Remove built in fighters,graphics/hullmods/loadout_design_sm.png
+PD Drone Deployment,modern_wasp_bay,3,,Modern,"Fighters, merc, non_phase, special, req_spaceport, no_build_in, vEx_hull_spec_mod","Fighters, Requires Dock, Special",50000,,,,10,15,20,25,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.FighterGuardianDrones,Dispatch a wasp wing to provide close range PD support.,Add wasp built in wing,graphics/hullmods/wasp_deployment.png
+Fighter Bay Reverter,modern_revert_built_in_wings,,,,,,,,TRUE,TRUE,0,0,0,0,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.FighterBayStandardizationRevert,,,graphics/hullmods/loadout_design_sm.png
+Dynamic Manufactory,su_hacky_very_swarm_carrier,1,,Modern,"auto_concord, concord_implicit, Fighters, merc, non_phase, special, req_spaceport, no_build_in, vEx_fighter_conversion","Fighters, Requires Dock",5000,,TRUE,,3,6,10,15,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.DynamicFighterAssembly,"Increase fighter bay count by %s but reduces wing size and OP cost by %s.
+
+Increase the rate at which the fighter replacement rate decreases due to fighter losses by %s.
+
+For wings with single fighter, increase replacement time by %s.","More fighters to spread out the chaos, but total damage is near identical to original",graphics/hullmods/expanded_hanger.png
+,,,,,,,,,,,,,,,,,,
+Steady Bombing Protocol,baybomberspecial,,,Modern,"Fighters, special, non_phase, no_build_in",Fighters,0,TRUE,,,0,0,0,0,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.SteadyApproach,Bombers slow down to deplete the bomb bay before reaching target.,Bomber slows down,graphics/hullmods/reduced_explosion.png
+Conservative Deployment,stop_ai_suiciding_fighters,,,Modern,"Fighters, special, non_phase, no_build_in",Fighters,0,TRUE,,,0,0,0,0,org.sutopia.starsector.mod.moderncarrier.hullmods.regular.ConservativeDeployment,Carrier regroup its fighters when replacement rate drops below %s and attempt to recover replacement rate until %s before engaigng again.,AI stop cringe,graphics/hullmods/mechanical_engineering_sm.png
+OversizedManufactory,su_frigate_as_fighter,,,Modern,"Fighters, special, non_phase, no_build_in",Fighters,0,,TRUE,,0,0,0,0,org.sutopia.starsector.mod.moderncarrier.hullmods.core.OversizedManufactoryCore,Allows carrier to use frigate as fighter,Holy,graphics/hullmods/mechanical_engineering_sm.png
 ,,,,,,,,,,,,,,,,,,
 # Discontinued,,,,,,,,,,,,,,,,,,
 Bastion Carrier Core,bastioncarrier,3,,Core Carrier,"req_spaceport, special, Fighters, merc, non_phase, carrier_core, req_military","Fighters, Requires Dock",50000,,TRUE,,10,20,30,40,org.sutopia.starsector.mod.moderncarrier.hullmods.core.BastionCarrierCore,"Reduce fighter operating range to %s.

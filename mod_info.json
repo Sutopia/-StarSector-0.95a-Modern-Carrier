@@ -3,7 +3,7 @@
     "name": "Modern Carriers",
     "author": "Sutopia",
     "utility": "false",
-    "version": "1.9.1a",
+    "version": "1.9.5a",
     "description": "New carrier hull mods for more carrier specialization.",
     "gameVersion": "0.95.1a-RC6",
 	"jars": ["jar/SutCarM.jar"],
@@ -11,6 +11,7 @@
         {
             "id": "su_Concord",
             "name": "Concord",
+            "version":{"major":3, "minor":5},
         },
     ],
     "modPlugin": "org.sutopia.starsector.mod.moderncarrier.ModernCarrierModPlugin",
